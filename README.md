@@ -1,7 +1,29 @@
-# Task-4-Setup-and-use-a-Firewall-on-Windows-Linux
+# Firewall Configuration Task (2025-05-30)
 
-## Tasks
-In kali linux terminal
+## 🔧 Task Overview
+- Configure firewall (Windows/UFW)
+- Add/block/allow rules
+- Test and remove rules
+
+## 📂 Files Included
+- `commands-used.txt`: CLI commands used
+- `screenshots/`: Visual steps taken
+- `test-script.sh`: Port test script
+
+## 🧰 Tools Used
+- Windows Defender Firewall GUI
+- PowerShell / Terminal
+- UFW on Linux
+
+## 📋 Steps Followed
+1. Listed current firewall rules
+2. Blocked port 23 (Telnet)
+3. Allowed port 22 (SSH)
+4. Verified using `telnet` and `Test-NetConnection`
+
+## ✅ Conclusion
+Firewall rules were successfully tested and managed on both Windows and Linux.
+
 
 ## Introduction
 In this project,  A firewall is a network security device either hardware or software-based which monitors all incoming and outgoing traffic and based on a defined set of security rules it accepts, rejects, or drops that specific traffic. It acts like a security guard that helps keep your digital world safe from unwanted visitors and potential threats.
